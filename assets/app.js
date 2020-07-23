@@ -20,9 +20,11 @@ var passwods = [
   "ale",
   "fab",
   "pedro",
+  "elian",
   "claudio",
   "nohemi",
   "gabi",
+  "lito",
 ];
 
 function toggleLamina(id) {
@@ -134,6 +136,14 @@ function get_by_pass(pass) {
     case "gabi":
       var p =
         "<p class='sms'>La divertida Gabi! Eres una gran mujer que inspira, mucho cariño para tu hijo.. se lo extraña.. Sigue adelante.. tienes mi apoyo. <br> I love u <3 </p>";
+      return p;
+    case "lito":
+      var p =
+        "<p class='sms'>El más pro de redes.. sigue adelante.. por más años de amistad! <br> Abrazos <3 </p>";
+      return p;
+    case "elian":
+      var p =
+        "<p class='sms'>Todo una fuente de conocimiento, siempre dispuesto a compartir papers.. sigue asi! <br> Abrazos <3 </p>";
       return p;
   }
   return contenido;
