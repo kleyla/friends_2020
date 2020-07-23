@@ -103,13 +103,16 @@ function get_by_pass(pass) {
         "<p class='sms'>El inteligente y el más gracioso! Sabes muchas cosas y siempre estas dispuesto a ayudar a los demás, nunca cambies! <br> Abrazos <3 </p>";
       return p;
     case "jandi":
-      var p = "<p class='sms'>Siempre con una sonrisa.. Gracias por tu amistad! Por más años juntas! <br> Te quiero <3 </p>";
+      var p =
+        "<p class='sms'>Siempre con una sonrisa.. Gracias por tu amistad! Por más años juntas! <br> Te quiero <3 </p>";
       return p;
     case "ale":
-      var p = "<p class='sms'>BBcita! La persona más amorosa del mundo! Gracis por tu amistad! <br> I love u <3 </p>";
+      var p =
+        "<p class='sms'>BBcita! La persona más amorosa del mundo! Gracis por tu amistad! <br> I love u <3 </p>";
       return p;
     case "fab":
-      var p = "<p class='sms'>! <br> Abrazos<3 </p>";
+      var p =
+        "<p class='sms'>El más responsable! Gracias por tu amistad! Por una graduación feliz! <br> Abrazos<3 </p>";
       return p;
     case "pedro":
       var p = "<p class='sms'>! <br> Abrazos <3 </p>";
