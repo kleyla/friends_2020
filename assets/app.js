@@ -13,6 +13,7 @@ var passwods = [
   "rocio",
   "daniel",
   "knox",
+  "jake",
   "wigner",
   "guille",
   "jandi",
@@ -94,6 +95,10 @@ function get_by_pass(pass) {
       var p =
         "<p class='sms'>El más relax! Eres un gran amigo, siempre me das los animos que necesito. Por más materias juntos! <br> Abrazos<3 </p>";
       return p;
+    case "jake":
+      var p =
+        "<p class='sms'>Eres muy tierna.. con tus articulos, como la mochila de panda. Recuerda cuidarte, te quiero ver sana y muy feliz! <br> I love u <3 </p>";
+      return p;
     case "wigner":
       var p =
         "<p class='sms'>El timido.. solo bromeo.. eres una gran persona y un buen amigo, Por más años de amistad!  <br> Abrazos <3 </p>";
@@ -115,17 +120,20 @@ function get_by_pass(pass) {
         "<p class='sms'>El más responsable! Gracias por tu amistad! Por una graduación feliz! <br> Abrazos<3 </p>";
       return p;
     case "pedro":
-      var p = "<p class='sms'>! <br> Abrazos <3 </p>";
+      var p =
+        "<p class='sms'>Eres muy divertido e inteligente! Nunca pares de aprender! no s'e porque lo digo.. eres imparable..  <br> Abrazos <3 </p>";
       return p;
     case "claudio":
       var p =
         "<p class='sms'>Científico!!! Me inspiras mucho, sé que conseguiras tus objetivos.<br> Abrazos <3 </p>";
       return p;
     case "nohemi":
-      var p = "<p class='sms'>! <br> I love u <3 </p>";
+      var p =
+        "<p class='sms'>Una gran programadora! Me inspiras a seguir en el area.. Gracias por ser paciente y mostrarme nuevos caminos! Por más años juntas! <br> I love u <3 </p>";
       return p;
     case "gabi":
-      var p = "<p class='sms'>! <br> I love u <3 </p>";
+      var p =
+        "<p class='sms'>La divertida Gabi! Eres una gran mujer que inspira, mucho cariño para tu hijo.. se lo extraña.. Sigue adelante.. tienes mi apoyo. <br> I love u <3 </p>";
       return p;
   }
   return contenido;
