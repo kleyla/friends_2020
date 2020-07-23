@@ -2,7 +2,7 @@ $(function () {
   $("#btn-submit").click(function () {
     var pass = $("#password").val();
     $("#fill").empty();
-    var contenido = getContenido(pass);
+    var contenido = getContenido(pass.toLowerCase());
     $("#fill").append(contenido);
     // alert("hi");
   });
